@@ -34,8 +34,8 @@
 
 }
 .profile-container {
-    background-color: #d4e1d8 !important;
-    margin-top: 10px;
+    background-color: #f6e69a !important;
+    margin-top: 30px;
     border-radius: 10px ;
     box-shadow: 1px 0px 0px 0px gray;
     
@@ -49,6 +49,7 @@
     font-style: italic !important;
     line-height: 32px !important;
     letter-spacing: 1px;
+    text-align: start !important;
     
     
 
@@ -61,4 +62,19 @@
 .profile-head {
     padding-top: 16px !important;
     color:rgb(255, 0, 136) !important;
+}
+@media screen and (max-width: 400px){
+    .profile-container {
+        background-color: #e4b7f2 !important;
+        margin: 0px;
+        
+        box-shadow: 1px 0px 0px 0px gray;
+        
+    }
+    .profile-description {
+        text-align: center !important;
+
+    }
+
+    
 }
