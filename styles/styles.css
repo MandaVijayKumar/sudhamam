@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mainnav {
+    background: #98ab9e;
+    color:#d4a72c !important;
+    box-sizing: border-box;
+    
+     
+}
+.nav-brand {
+    color: rgb(255, 0, 136) !important;
+}
+.nav-listitems li a {
+    color: whitesmoke !important;
+    margin: 0px 10px !important;
+}
+.nav-listitems li:hover {
+    /* background-color: rgb(216, 222, 222) !important; */
+    border-bottom: 3px groove #98ab9e !important;
+    box-shadow: 3px 0px 0px 0px #98ab9e;
+    color: rgb(255, 0, 136) !important
+}
+.nav-listitems {
+    margin-left: auto;
+}
+.nav-dropdown {
+    background: #98ab9e !important;
+    color: white !important
+}
+.nav-dropdown a:hover {
+    background: lightblue !important;
+
+}
+.profile-container {
+    background-color: #d4e1d8 !important;
+    margin-top: 10px;
+    border-radius: 10px ;
+    box-shadow: 1px 0px 0px 0px gray;
+    
+}
+.namaste-img {
+    width: 100px;
+    height: 120px;
+}
+.profile-description {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic !important;
+    line-height: 32px !important;
+    letter-spacing: 1px;
+    
+    
+
+}
+.profile-content {
+    margin:12px !important;
+    padding: 12px !important;
+
+}
+.profile-head {
+    padding-top: 16px !important;
+    color:rgb(255, 0, 136) !important;
+}
