@@ -37,7 +37,7 @@
     
 }
 .c-item {
-    height: 80vh !important;
+    height: 70vh !important;
     position: relative !important;
 }
 .c-caption {
@@ -50,4 +50,8 @@
     height: 100% !important;
     
     
+}
+.about-section p {
+    line-height: 28px;
+    text-align: justify;
 }
