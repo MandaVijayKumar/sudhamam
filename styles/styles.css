@@ -71,7 +71,12 @@
     text-align: justify;
 }
 .abuse-img {
-    height: 300px !important;
+    height: 350px !important;
+}
+.abuse-img1 {
+   
+    height: 400px !important;
+    margin-top: 10px !important;
 }
 .abuse-container {
     display: flex;
