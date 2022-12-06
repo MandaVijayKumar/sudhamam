@@ -11,6 +11,7 @@
 }
 .nav-brand {
     color: rgb(255, 0, 136) !important;
+    
 }
 .nav-listitems li a {
     color: whitesmoke !important;
@@ -34,11 +35,13 @@
 
 }
 .carousel-section {
-    height: 600px !important;
+    height: 500px !important;
+    object-fit: cover;
     
 }
 .c-item {
-    height: 600px !important;
+    height: 500px !important;
+    object-fit: cover !important;
     
     
     position: relative !important;
