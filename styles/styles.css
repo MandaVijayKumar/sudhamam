@@ -180,11 +180,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 600px !important;
+   
     
 }
 .evil-box {
-    width: 30%;
+    
     background: linear-gradient(180deg, #fffcfd, #d0cbe6);
     display: flex;
     flex-direction: column;
@@ -204,8 +204,10 @@
 }
 .evil-section {
     background-color: #555767;
+    padding: 26px !important;
 }
-.evil-para {
+.evil-para1 {
+    padding-bottom: 46px !important;
     
 }
 .evil-title {
