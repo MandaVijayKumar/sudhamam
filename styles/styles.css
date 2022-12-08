@@ -75,6 +75,7 @@
 .about-section p {
     line-height: 28px;
     text-align: justify;
+    background-color: #f8f6fb;
 }
 .abuse-img {
     height: 350px !important;
@@ -90,27 +91,35 @@
     align-items: center;
 }
 .full-detail {
-    background-color: azure !important;
+    background-color: rgb(135, 145, 149) !important;
 }
 .full-detail1 {
-    background-color: rgb(252, 238, 249) !important;
+    background-color:#12343b !important;
+    
 }
 .abuse-para {
     line-height: 28px;
     text-align: justify;
     font-size: 18px;
+    color: lightgoldenrodyellow
 
 }
 .card-img {
     height: 500px !important;
 }
 .card-section {
-    background-color: rgba(197, 197, 255, 0.5);
+    /* background-color: rgba(197, 197, 255, 0.5); */
 }
 .incidents-section {
-    background-color: rgba(194, 221, 212,0.5) !important;
+    background-color: rgba(50, 70, 63, 0.5) !important;
 }
 .bg-btn {
     background-color: rgba(255, 248, 190, 0.4) !important;
     
+}
+.full-bg {
+    background-color: #f6f3fb;
+}
+.bg-header {
+    background: linear-gradient(45deg,  rgb(185, 246, 206), rgb(205, 188, 234))
 }
