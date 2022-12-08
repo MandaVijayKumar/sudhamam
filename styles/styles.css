@@ -73,9 +73,10 @@
     
 }
 .about-section p {
-    line-height: 28px;
+    line-height: 34px;
     text-align: justify;
     background-color: #f8f6fb;
+    font-size: 18px;
 }
 .abuse-img {
     height: 350px !important;
@@ -91,27 +92,54 @@
     align-items: center;
 }
 .full-detail {
-    background-color: rgb(135, 145, 149) !important;
+    background-color: #fae0e4 !important;
+}
+.abuse-para1 {
+    line-height: 34px ;
+    text-align: justify;
+    font-size: 18px;
+    color: black
+
 }
 .full-detail1 {
-    background-color:#12343b !important;
+    
     
 }
 .abuse-para {
-    line-height: 28px;
+    line-height: 36px ;
     text-align: justify;
     font-size: 18px;
-    color: lightgoldenrodyellow
+    color:#fdf7ff !important
+    
 
 }
 .card-img {
-    height: 500px !important;
+    height: 450px !important;
+    margin:0px !important;
+    padding: 0px !important;
 }
 .card-section {
-    /* background-color: rgba(197, 197, 255, 0.5); */
+    background-color: #D462FF;
+    height: 800px !important;
+    margin-top: 5px;
+   
+}
+.card-section .row {
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+
+}
+.bg-card {
+    background-color: #ffe3ec;
+    box-shadow: 10px 10px 10px #987fa1;
+}
+.card-para {
+    text-align: justify !important;
+    margin: 0px 5px 5px 5px !important
 }
 .incidents-section {
-    background-color: rgba(50, 70, 63, 0.5) !important;
+    background-color: rgba(26, 203, 141, 0.5) !important;
 }
 .bg-btn {
     background-color: rgba(255, 248, 190, 0.4) !important;
@@ -122,4 +150,66 @@
 }
 .bg-header {
     background: linear-gradient(45deg,  rgb(185, 246, 206), rgb(205, 188, 234))
+}
+.evil-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.evil-img {
+    border:1px solid rgb(235, 217, 227); 
+    border-radius: 50% !important;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -50px !important;
+    box-shadow: #d0cbe6;
+}
+#allegations {
+    
+    background-color: #342D7E !important;
+}
+.allegation-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+.evil-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px !important;
+    
+}
+.evil-box {
+    width: 30%;
+    background: linear-gradient(180deg, #fffcfd, #d0cbe6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px rgba(253, 253, 253, 0.2);
+    padding: 5px;
+   
+}
+.evil-box p {
+    text-align: justify !important;
+    margin: 0px 5px !important;
+
+}
+.evil-section {
+    background-color: #555767;
+}
+.evil-para {
+    
+}
+.evil-title {
+    font-size: 18px !important;
+    color: rgb(255, 27, 27);
+    padding-bottom: 5px !important;
 }
