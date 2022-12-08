@@ -120,7 +120,7 @@
 }
 .card-section {
     background-color: #D462FF;
-    height: 800px !important;
+    
     margin-top: 5px;
    
 }
@@ -134,9 +134,22 @@
     background-color: #ffe3ec;
     box-shadow: 10px 10px 10px #987fa1;
 }
-.card-para {
+.card-para1 {
     text-align: justify !important;
-    margin: 0px 5px 5px 5px !important
+    padding-bottom: 20px ;
+    
+   
+}
+.card-para2 {
+    text-align: justify !important;
+    margin-bottom: 4px ;
+    
+   
+}
+.card-para3 {
+    text-align: justify !important;
+    margin-bottom: 10px ;
+   
 }
 .incidents-section {
     background-color: rgba(26, 203, 141, 0.5) !important;
