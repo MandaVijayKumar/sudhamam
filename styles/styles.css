@@ -21,18 +21,20 @@
 .nav-listitems li:hover {
     /* background-color: rgb(216, 222, 222) !important; */
     border-bottom: 3px groove #98ab9e !important;
-    box-shadow: 3px 0px 0px 0px #98ab9e;
+    /* box-shadow: 3px 0px 0px 0px #98ab9e; */
     color: rgb(255, 0, 136) !important
 }
 .nav-listitems {
     margin-left: auto;
 }
 .nav-dropdown {
-    background: #98ab9e !important;
-    color: white !important
+    background-color: #3f53f1;
+   
 }
-.nav-dropdown a:hover {
-    background: lightblue !important;
+.nav-dropdown li a:hover {
+    background-color: #3f53f1 !important;
+    color: red !important;
+   
 
 }
 .carousel-section {
@@ -72,10 +74,16 @@
     
     
 }
+.about-section {
+    /* background: url('../asserts/img/IMG_2799.JPG');
+    background-size: cover;
+    background-attachment: fixed; */
+    
+}
 .about-section p {
     line-height: 34px;
     text-align: justify;
-    background-color: #f8f6fb;
+   
     font-size: 18px;
 }
 .abuse-img {
@@ -91,8 +99,9 @@
     justify-content: center;
     align-items: center;
 }
-.full-detail {
-    background-color: #fae0e4 !important;
+.abuse-section  {
+    background: rgba(44, 16, 31,0.2) !important;
+    background-attachment: fixed;
 }
 .abuse-para1 {
     line-height: 34px ;
@@ -119,7 +128,8 @@
     padding: 0px !important;
 }
 .card-section {
-    background-color: #D462FF;
+    /* background-color: #D462FF; */
+    background-color: rgba(205, 29, 96,0.2);
     
     margin-top: 5px;
    
@@ -182,7 +192,8 @@
 }
 #allegations {
     
-    background-color: #342D7E !important;
+    background: rgba(28, 15, 68, 0.9) !important;
+    background-attachment: fixed !important;
 }
 .allegation-row {
     display: flex !important;
