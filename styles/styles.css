@@ -18,9 +18,9 @@
     color: whitesmoke !important;
     margin: 0px 10px !important;
 }
-.nav-listitems li:hover {
+.nav-listitems li a:hover {
     /* background-color: rgb(216, 222, 222) !important; */
-    border-bottom: 3px groove #98ab9e !important;
+    /* border-bottom: 3px groove #98ab9e !important; */
     /* box-shadow: 3px 0px 0px 0px #98ab9e; */
     color: rgb(255, 0, 136) !important
 }
@@ -318,4 +318,27 @@
     transform: translate(-4%, 40%);
     z-index: -1;
 }
-   
+#tm1, #tm2 {
+    display: none;
+}
+.para {
+    display: none;
+}
+.btncolor {
+    background-color: #9e154e !important;
+    color: white !important;
+    border-radius: 6px !important;
+}
+#crimeslist {
+    display: none;
+}
+.btn {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#para-text1,#para-text2, #para-text3 {
+    display: none;
+}
+.togle {
+    color: white !important;
+}
