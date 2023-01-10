@@ -166,3 +166,25 @@ b18.addEventListener('click',()=> {
     p18.style.display = 'block';
     b18.style.display = 'none'
 })
+let evilb = document.querySelector('#btnevil');
+let pb = document.querySelector('#psy-btn');
+pb.addEventListener('click', () => {
+    pp = document.querySelector("#psy-para");;
+
+    pp.style.display = 'inline';
+    pb.style.display = 'none'
+})
+
+evilb.addEventListener('click', () => {
+    let evilp = document.querySelector('#evilpara');
+    evilp.style.display = 'inline';
+    evilb.style.display = 'none';
+});
+
+let opbtn = document.querySelector('#op-btn');
+opbtn.addEventListener('click', () => {
+    let oppara = document.querySelector('#op-para');
+    oppara.style.display = 'inline';
+    opbtn.style.display = 'none';
+
+})
